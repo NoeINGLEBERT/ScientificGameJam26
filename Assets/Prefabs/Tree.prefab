@@ -90,8 +90,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trunkHydricStatus: 0
-  branchHydricStatus: []
-  leafHydricStatus: []
+  branchHydricStatus:
+  - 0
+  - 0
+  - 0
+  - 0
+  leafHydricStatus:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   peachHydricStatus: []
   peachQuality:
   - 0
@@ -102,7 +114,8 @@ MonoBehaviour:
   - 0
   - 0
   - 0
-  consumptionRate: 0.1
+  - 0
+  consumptionRate: 0.033333335
   trunkConsumption: 0.25
   branchConsumption: 0.25
   leafConsumption: 0.5
@@ -118,6 +131,7 @@ MonoBehaviour:
   qualityGainRate: 0.2
   qualityLossRate: 0.3
   seasonalMultiplier: 1
+  isPaused: 0
 --- !u!114 &3422775674861642718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,3 +150,6 @@ MonoBehaviour:
   dryColor: {r: 1, g: 0, b: 0, a: 1}
   optimalColor: {r: 0, g: 1, b: 0, a: 1}
   wetColor: {r: 0, g: 0, b: 1, a: 1}
+  warningDryColor: {r: 1, g: 0.75, b: 0, a: 1}
+  warningWetColor: {r: 0.5, g: 0.7, b: 1, a: 1}
+  colorLerpSpeed: 5
