@@ -47,6 +47,8 @@ public class TimelineSystem : MonoBehaviour
         "July","August","September","October","November","December"
     };
 
+    public TreeSystem tree;
+
     void Start()
     {
         currentMonth = startMonth;
@@ -82,6 +84,7 @@ public class TimelineSystem : MonoBehaviour
     void PauseForEvent()
     {
         isPaused = true;
+        tree.isPaused = true;
 
         // Notify external systems
         OnMonthEnded?.Invoke(currentMonth);
@@ -90,6 +93,7 @@ public class TimelineSystem : MonoBehaviour
     public void ResumeAfterEvent()
     {
         isPaused = false;
+        tree.isPaused = false;
 
         timer -= monthDuration;
         NextMonth();
@@ -160,7 +164,7 @@ public class TimelineSystem : MonoBehaviour
     {
         if (temperatureText != null)
         {
-            temperatureText.text = $"{currentTemperature:0.#}°C";
+            temperatureText.text = $"{(int)currentTemperature}°C";
         }
     }
 

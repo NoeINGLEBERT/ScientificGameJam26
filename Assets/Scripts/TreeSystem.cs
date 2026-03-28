@@ -37,6 +37,9 @@ public class TreeSystem : MonoBehaviour
     [Header("Season")]
     public float seasonalMultiplier = 1f;
 
+    [Header("Runtime State")]
+    public bool isPaused = false;
+
     void Start()
     {
         InitializeArrays();
@@ -44,6 +47,8 @@ public class TreeSystem : MonoBehaviour
 
     void Update()
     {
+        if (isPaused) return;
+
         float dt = Time.deltaTime;
 
         DrainAll(consumptionRate * dt);

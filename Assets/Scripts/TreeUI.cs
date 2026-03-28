@@ -16,6 +16,13 @@ public class TreeUI : MonoBehaviour
     public Color optimalColor = Color.green;
     public Color wetColor = Color.blue;
 
+    [Header("Warning Colors")]
+    public Color warningDryColor = new Color(1f, 0.5f, 0f);   // orange
+    public Color warningWetColor = new Color(0.5f, 0.7f, 1f); // light blue
+
+    [Header("Animation")]
+    public float colorLerpSpeed = 5f;
+
     void Update()
     {
         UpdateHydricBar();
@@ -31,13 +38,57 @@ public class TreeUI : MonoBehaviour
 
         hydricBarFill.fillAmount = avg;
 
-        // Color based on range
+        // -------------------------
+        // BASE COLOR (GLOBAL)
+        // -------------------------
+        Color targetColor;
+
         if (avg < tree.optimalMin)
-            hydricBarFill.color = dryColor;
+            targetColor = dryColor;
         else if (avg > tree.optimalMax)
-            hydricBarFill.color = wetColor;
+            targetColor = wetColor;
         else
-            hydricBarFill.color = optimalColor;
+            targetColor = optimalColor;
+
+        // -------------------------
+        // WARNING OVERRIDE
+        // -------------------------
+        bool hasDryWarning = false;
+        bool hasWetWarning = false;
+
+        float leafAvg = GetAverage(tree.leafHydricStatus);
+        float fruitAvg = GetAverage(tree.peachHydricStatus);
+        float treeAvg = GetTreeCoreAverage();
+
+        CheckWarning(treeAvg, ref hasDryWarning, ref hasWetWarning);
+        CheckWarning(leafAvg, ref hasDryWarning, ref hasWetWarning);
+        CheckWarning(fruitAvg, ref hasDryWarning, ref hasWetWarning);
+
+        // Only override if global is "fine"
+        if (avg >= tree.optimalMin && avg <= tree.optimalMax)
+        {
+            if (hasDryWarning)
+                targetColor = warningDryColor;
+            else if (hasWetWarning)
+                targetColor = warningWetColor;
+        }
+
+        // -------------------------
+        // SMOOTH LERP
+        // -------------------------
+        hydricBarFill.color = Color.Lerp(
+            hydricBarFill.color,
+            targetColor,
+            Time.deltaTime * colorLerpSpeed
+        );
+    }
+
+    void CheckWarning(float value, ref bool dry, ref bool wet)
+    {
+        if (value < tree.optimalMin)
+            dry = true;
+        else if (value > tree.optimalMax)
+            wet = true;
     }
 
     // =========================
