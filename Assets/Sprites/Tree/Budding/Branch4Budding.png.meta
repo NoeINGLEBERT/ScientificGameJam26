@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: a20672c93dbae5641833870edf923b08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6145312005868307108
+    second: Branch4Budding_0
+  - first:
+      213: -2752738506888126026
+    second: Branch4Budding_1
+  - first:
+      213: 4827913683120183864
+    second: Branch4Budding_2
+  - first:
+      213: 9163181308442402671
+    second: Branch4Budding_3
+  - first:
+      213: -3852412515242947250
+    second: Branch4Budding_4
+  - first:
+      213: -7782928352997048455
+    second: Branch4Budding_5
+  - first:
+      213: -8244257583562068992
+    second: Branch4Budding_6
+  - first:
+      213: -5243996819564202277
+    second: Branch4Budding_7
+  - first:
+      213: -4769770798281508448
+    second: Branch4Budding_8
+  - first:
+      213: -6701347173831047488
+    second: Branch4Budding_9
+  - first:
+      213: 5233078512095330477
+    second: Branch4Budding_10
+  - first:
+      213: -8754606759331470483
+    second: Branch4Budding_11
+  - first:
+      213: -7130308923835983123
+    second: Branch4Budding_12
+  - first:
+      213: 6729988428507125480
+    second: Branch4Budding_13
+  - first:
+      213: -613548237070626423
+    second: Branch4Budding_14
+  - first:
+      213: 6501880705049566552
+    second: Branch4Budding_15
+  - first:
+      213: -4638158313894727353
+    second: Branch4Budding_16
+  - first:
+      213: 6136912070653503223
+    second: Branch4Budding_17
+  - first:
+      213: 111592070674559667
+    second: Branch4Budding_18
+  - first:
+      213: 4416336456696353082
+    second: Branch4Budding_19
+  - first:
+      213: 8330335979956970918
+    second: Branch4Budding_20
+  - first:
+      213: -9220035412556424781
+    second: Branch4Budding_21
+  - first:
+      213: 167503729268390921
+    second: Branch4Budding_22
+  - first:
+      213: 4143893306674970656
+    second: Branch4Budding_23
+  - first:
+      213: -4034295161934214566
+    second: Branch4Budding_24
+  - first:
+      213: -2394770222188397175
+    second: Branch4Budding_25
+  - first:
+      213: 8064697917403366367
+    second: Branch4Budding_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Branch4Budding_0
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 660
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5db6483a4777baa0800000000000000
+      internalID: -6145312005868307108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_1
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 636
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1e461a9ee4cc9d0800000000000000
+      internalID: -2752738506888126026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 645
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a50a85ae1300340800000000000000
+      internalID: 4827913683120183864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_3
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 637
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f5536f9d82a2f70800000000000000
+      internalID: 9163181308442402671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_4
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 617
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4dcca47a3b798ac0800000000000000
+      internalID: -3852412515242947250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_5
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 626
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f7b4f06eb7df390800000000000000
+      internalID: -7782928352997048455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 612
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c66fe5863869d80800000000000000
+      internalID: -8244257583562068992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_7
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 613
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6f89e2da49937b0800000000000000
+      internalID: -5243996819564202277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_8
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 599
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a93664fabe5ecdb0800000000000000
+      internalID: -4769770798281508448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_9
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 604
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c68b3b20480003a0800000000000000
+      internalID: -6701347173831047488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_10
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 588
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da00c234e21af9840800000000000000
+      internalID: 5233078512095330477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_11
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 591
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6360d94983618680800000000000000
+      internalID: -8754606759331470483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_12
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 576
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea55ffcfcd0c0d90800000000000000
+      internalID: -7130308923835983123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_13
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 582
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e618a791d8b56d50800000000000000
+      internalID: 6729988428507125480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_14
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 583
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98196dc012d3c77f0800000000000000
+      internalID: -613548237070626423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_15
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 573
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d12748d025b3a50800000000000000
+      internalID: 6501880705049566552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_16
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 577
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741b7486693f1afb0800000000000000
+      internalID: -4638158313894727353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_17
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 570
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6eb157301ba2550800000000000000
+      internalID: 6136912070653503223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_18
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 562
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2be44a5647c8100800000000000000
+      internalID: 111592070674559667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_19
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 574
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a315efdcb9af94d30800000000000000
+      internalID: 4416336456696353082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_20
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 574
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5adf0107c4b9370800000000000000
+      internalID: 8330335979956970918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_21
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 559
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b95d0264aadb0080800000000000000
+      internalID: -9220035412556424781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_22
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 560
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c789911c7135200800000000000000
+      internalID: 167503729268390921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_23
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 564
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0200b73d101128930800000000000000
+      internalID: 4143893306674970656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_24
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 566
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a85d1cced4308c0800000000000000
+      internalID: -4034295161934214566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_25
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 547
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98df6c3cb2114ced0800000000000000
+      internalID: -2394770222188397175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch4Budding_26
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 547
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd309abf6009bef60800000000000000
+      internalID: 8064697917403366367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Branch4Budding_0: -6145312005868307108
+      Branch4Budding_1: -2752738506888126026
+      Branch4Budding_10: 5233078512095330477
+      Branch4Budding_11: -8754606759331470483
+      Branch4Budding_12: -7130308923835983123
+      Branch4Budding_13: 6729988428507125480
+      Branch4Budding_14: -613548237070626423
+      Branch4Budding_15: 6501880705049566552
+      Branch4Budding_16: -4638158313894727353
+      Branch4Budding_17: 6136912070653503223
+      Branch4Budding_18: 111592070674559667
+      Branch4Budding_19: 4416336456696353082
+      Branch4Budding_2: 4827913683120183864
+      Branch4Budding_20: 8330335979956970918
+      Branch4Budding_21: -9220035412556424781
+      Branch4Budding_22: 167503729268390921
+      Branch4Budding_23: 4143893306674970656
+      Branch4Budding_24: -4034295161934214566
+      Branch4Budding_25: -2394770222188397175
+      Branch4Budding_26: 8064697917403366367
+      Branch4Budding_3: 9163181308442402671
+      Branch4Budding_4: -3852412515242947250
+      Branch4Budding_5: -7782928352997048455
+      Branch4Budding_6: -8244257583562068992
+      Branch4Budding_7: -5243996819564202277
+      Branch4Budding_8: -4769770798281508448
+      Branch4Budding_9: -6701347173831047488
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

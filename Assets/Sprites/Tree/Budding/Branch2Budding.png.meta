@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 2c103e8fda2e85c4cae60527d2601dc7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6317622534549689118
+    second: Branch2Budding_0
+  - first:
+      213: -960121163839455589
+    second: Branch2Budding_1
+  - first:
+      213: -6061941458530994913
+    second: Branch2Budding_2
+  - first:
+      213: 1611152348614804980
+    second: Branch2Budding_3
+  - first:
+      213: 2617985348356637921
+    second: Branch2Budding_4
+  - first:
+      213: -8415351926958237823
+    second: Branch2Budding_5
+  - first:
+      213: -7834678723800510450
+    second: Branch2Budding_6
+  - first:
+      213: -3085092989970048037
+    second: Branch2Budding_7
+  - first:
+      213: 1099166050229653661
+    second: Branch2Budding_8
+  - first:
+      213: -3800823865484166158
+    second: Branch2Budding_9
+  - first:
+      213: -2677999011222558747
+    second: Branch2Budding_10
+  - first:
+      213: -2516552551458483701
+    second: Branch2Budding_11
+  - first:
+      213: 8804693316048861715
+    second: Branch2Budding_12
+  - first:
+      213: 7570986074744174493
+    second: Branch2Budding_13
+  - first:
+      213: 5115360530595518623
+    second: Branch2Budding_14
+  - first:
+      213: -3041100569575878344
+    second: Branch2Budding_15
+  - first:
+      213: 4932469956846873479
+    second: Branch2Budding_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Branch2Budding_0
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 722
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1356d41934bca750800000000000000
+      internalID: 6317622534549689118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 706
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9eb30073e6fca2f0800000000000000
+      internalID: -960121163839455589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 714
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15fb0b6c58afdba0800000000000000
+      internalID: -6061941458530994913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_3
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 692
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5c83a5686fb5610800000000000000
+      internalID: 1611152348614804980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_4
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 699
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e489fbbdc3f45420800000000000000
+      internalID: 2617985348356637921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_5
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 679
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18751c5420aa63b80800000000000000
+      internalID: -8415351926958237823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_6
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 686
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e005f8ae531a54390800000000000000
+      internalID: -7834678723800510450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 660
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb99c9654c8f25d0800000000000000
+      internalID: -3085092989970048037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_8
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 674
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d909b15f2b5014f00800000000000000
+      internalID: 1099166050229653661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 662
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb3dfbf4d2c04bc0800000000000000
+      internalID: -3800823865484166158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 658
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e76b338616d5dad0800000000000000
+      internalID: -2677999011222558747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_11
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 648
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02d6b7a9c8631dd0800000000000000
+      internalID: -2516552551458483701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_12
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 646
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a3953fbed803a70800000000000000
+      internalID: 8804693316048861715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_13
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 641
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d973e80e8bb811960800000000000000
+      internalID: 7570986074744174493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_14
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 622
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98133cdc496df640800000000000000
+      internalID: 5115360530595518623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 629
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8311138f427dbc5d0800000000000000
+      internalID: -3041100569575878344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branch2Budding_16
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 622
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78be42bda47a37440800000000000000
+      internalID: 4932469956846873479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Branch2Budding_0: 6317622534549689118
+      Branch2Budding_1: -960121163839455589
+      Branch2Budding_10: -2677999011222558747
+      Branch2Budding_11: -2516552551458483701
+      Branch2Budding_12: 8804693316048861715
+      Branch2Budding_13: 7570986074744174493
+      Branch2Budding_14: 5115360530595518623
+      Branch2Budding_15: -3041100569575878344
+      Branch2Budding_16: 4932469956846873479
+      Branch2Budding_2: -6061941458530994913
+      Branch2Budding_3: 1611152348614804980
+      Branch2Budding_4: 2617985348356637921
+      Branch2Budding_5: -8415351926958237823
+      Branch2Budding_6: -7834678723800510450
+      Branch2Budding_7: -3085092989970048037
+      Branch2Budding_8: 1099166050229653661
+      Branch2Budding_9: -3800823865484166158
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

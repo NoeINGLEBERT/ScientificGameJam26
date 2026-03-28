@@ -1,0 +1,4043 @@
+fileFormatVersion: 2
+guid: d89010a9e0d05974b9b23e7715229502
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2211977563706709917
+    second: TrunkBudding_0
+  - first:
+      213: -6637522666600111926
+    second: TrunkBudding_1
+  - first:
+      213: -7802685606139405135
+    second: TrunkBudding_2
+  - first:
+      213: 8725535509041260576
+    second: TrunkBudding_3
+  - first:
+      213: -973086745265437569
+    second: TrunkBudding_4
+  - first:
+      213: -2527194433015096217
+    second: TrunkBudding_5
+  - first:
+      213: 2585484173594181661
+    second: TrunkBudding_6
+  - first:
+      213: -2231671729143059873
+    second: TrunkBudding_7
+  - first:
+      213: 2091801443760826409
+    second: TrunkBudding_8
+  - first:
+      213: 5009169031625831169
+    second: TrunkBudding_9
+  - first:
+      213: -7655403494263892522
+    second: TrunkBudding_10
+  - first:
+      213: 5831138145367083015
+    second: TrunkBudding_11
+  - first:
+      213: -7346992724061345992
+    second: TrunkBudding_12
+  - first:
+      213: -2609607850424674763
+    second: TrunkBudding_13
+  - first:
+      213: 4128158722598249613
+    second: TrunkBudding_14
+  - first:
+      213: 1689232688561053413
+    second: TrunkBudding_15
+  - first:
+      213: -2396239476687037832
+    second: TrunkBudding_16
+  - first:
+      213: 8146765512768146769
+    second: TrunkBudding_17
+  - first:
+      213: 4326040329892532674
+    second: TrunkBudding_18
+  - first:
+      213: -1404456854832763294
+    second: TrunkBudding_19
+  - first:
+      213: -5101522868095934697
+    second: TrunkBudding_20
+  - first:
+      213: 4502710755574040559
+    second: TrunkBudding_21
+  - first:
+      213: 1665320350941552367
+    second: TrunkBudding_22
+  - first:
+      213: -537911638692062783
+    second: TrunkBudding_23
+  - first:
+      213: -1957479972133507234
+    second: TrunkBudding_24
+  - first:
+      213: 1768362298908213189
+    second: TrunkBudding_25
+  - first:
+      213: 7031836868479819610
+    second: TrunkBudding_26
+  - first:
+      213: -3717967165016713944
+    second: TrunkBudding_27
+  - first:
+      213: 6544772854989979757
+    second: TrunkBudding_28
+  - first:
+      213: -725570723721898414
+    second: TrunkBudding_29
+  - first:
+      213: 98029324128574869
+    second: TrunkBudding_30
+  - first:
+      213: 8375012221026859127
+    second: TrunkBudding_31
+  - first:
+      213: 3600668323402826568
+    second: TrunkBudding_32
+  - first:
+      213: -2393313676880493865
+    second: TrunkBudding_33
+  - first:
+      213: -6436718466193221554
+    second: TrunkBudding_34
+  - first:
+      213: 8846721351321287920
+    second: TrunkBudding_35
+  - first:
+      213: -4299439899417443369
+    second: TrunkBudding_36
+  - first:
+      213: -3455136217061828917
+    second: TrunkBudding_37
+  - first:
+      213: 8688779862132638420
+    second: TrunkBudding_38
+  - first:
+      213: -6815234356651044997
+    second: TrunkBudding_39
+  - first:
+      213: -8881619414658101064
+    second: TrunkBudding_40
+  - first:
+      213: 7361714276192174122
+    second: TrunkBudding_41
+  - first:
+      213: 7841635687805838592
+    second: TrunkBudding_42
+  - first:
+      213: -7727870184345725116
+    second: TrunkBudding_43
+  - first:
+      213: 6866201616600900263
+    second: TrunkBudding_44
+  - first:
+      213: 3945104949117258196
+    second: TrunkBudding_45
+  - first:
+      213: 5163318551413052873
+    second: TrunkBudding_46
+  - first:
+      213: 6885218900285835976
+    second: TrunkBudding_47
+  - first:
+      213: -6259261096422628105
+    second: TrunkBudding_48
+  - first:
+      213: 2789697966015603666
+    second: TrunkBudding_49
+  - first:
+      213: 9198585807142460328
+    second: TrunkBudding_50
+  - first:
+      213: -7305905599879249502
+    second: TrunkBudding_51
+  - first:
+      213: -2909716465178104093
+    second: TrunkBudding_52
+  - first:
+      213: 4362824779384286038
+    second: TrunkBudding_53
+  - first:
+      213: 3236006128112105820
+    second: TrunkBudding_54
+  - first:
+      213: -3514700743134024185
+    second: TrunkBudding_55
+  - first:
+      213: -5968802970646011129
+    second: TrunkBudding_56
+  - first:
+      213: -2409847470854844161
+    second: TrunkBudding_57
+  - first:
+      213: -2439043476825597505
+    second: TrunkBudding_58
+  - first:
+      213: 1111457915686487481
+    second: TrunkBudding_59
+  - first:
+      213: -8307462820047074613
+    second: TrunkBudding_60
+  - first:
+      213: 7751252426085072185
+    second: TrunkBudding_61
+  - first:
+      213: 1216016117479382206
+    second: TrunkBudding_62
+  - first:
+      213: 8072040659198162347
+    second: TrunkBudding_63
+  - first:
+      213: -1774272691111901998
+    second: TrunkBudding_64
+  - first:
+      213: -5959192790180585610
+    second: TrunkBudding_65
+  - first:
+      213: -8468552223514326615
+    second: TrunkBudding_66
+  - first:
+      213: 992231479680904132
+    second: TrunkBudding_67
+  - first:
+      213: -4122975449550389369
+    second: TrunkBudding_68
+  - first:
+      213: -1865272905372095725
+    second: TrunkBudding_69
+  - first:
+      213: 193408189533059411
+    second: TrunkBudding_70
+  - first:
+      213: 8654049621432919327
+    second: TrunkBudding_71
+  - first:
+      213: 972810354383053456
+    second: TrunkBudding_72
+  - first:
+      213: -1510409484749128867
+    second: TrunkBudding_73
+  - first:
+      213: -3554184415079446081
+    second: TrunkBudding_74
+  - first:
+      213: 5504367855343321168
+    second: TrunkBudding_75
+  - first:
+      213: 5284000609421438409
+    second: TrunkBudding_76
+  - first:
+      213: -5687049553427703609
+    second: TrunkBudding_77
+  - first:
+      213: -6372974854585890171
+    second: TrunkBudding_78
+  - first:
+      213: -2137065113518185554
+    second: TrunkBudding_79
+  - first:
+      213: 4608698221868954525
+    second: TrunkBudding_80
+  - first:
+      213: -1524401780859560549
+    second: TrunkBudding_81
+  - first:
+      213: -7348775461662993220
+    second: TrunkBudding_82
+  - first:
+      213: -60370086192387986
+    second: TrunkBudding_83
+  - first:
+      213: 8415292479634072119
+    second: TrunkBudding_84
+  - first:
+      213: 8581761382711931200
+    second: TrunkBudding_85
+  - first:
+      213: 2421087477940068439
+    second: TrunkBudding_86
+  - first:
+      213: -2067360732925295554
+    second: TrunkBudding_87
+  - first:
+      213: -3410659742773891302
+    second: TrunkBudding_88
+  - first:
+      213: 5601609648312502189
+    second: TrunkBudding_89
+  - first:
+      213: 1629534239626449514
+    second: TrunkBudding_90
+  - first:
+      213: 3683229401845613392
+    second: TrunkBudding_91
+  - first:
+      213: -8066594951781015558
+    second: TrunkBudding_92
+  - first:
+      213: -3559065972154125714
+    second: TrunkBudding_93
+  - first:
+      213: -2004857933848417257
+    second: TrunkBudding_94
+  - first:
+      213: 6016503327198707269
+    second: TrunkBudding_95
+  - first:
+      213: 5175250182574453670
+    second: TrunkBudding_96
+  - first:
+      213: 5685477369942210932
+    second: TrunkBudding_97
+  - first:
+      213: 1678182209953913716
+    second: TrunkBudding_98
+  - first:
+      213: -6063940050321313830
+    second: TrunkBudding_99
+  - first:
+      213: -6228030805010199163
+    second: TrunkBudding_100
+  - first:
+      213: -6274666538100070390
+    second: TrunkBudding_101
+  - first:
+      213: -299623290494123824
+    second: TrunkBudding_102
+  - first:
+      213: 927089948386605970
+    second: TrunkBudding_103
+  - first:
+      213: -2331589052770186403
+    second: TrunkBudding_104
+  - first:
+      213: -3266474787299071246
+    second: TrunkBudding_105
+  - first:
+      213: -236379268873008859
+    second: TrunkBudding_106
+  - first:
+      213: -638088657578576357
+    second: TrunkBudding_107
+  - first:
+      213: 4263952466324548568
+    second: TrunkBudding_108
+  - first:
+      213: 8005712140999201551
+    second: TrunkBudding_109
+  - first:
+      213: -1500788543006392714
+    second: TrunkBudding_110
+  - first:
+      213: 708723701337328130
+    second: TrunkBudding_111
+  - first:
+      213: 6625158883417296293
+    second: TrunkBudding_112
+  - first:
+      213: -2745287885384107711
+    second: TrunkBudding_113
+  - first:
+      213: -9063816400504213230
+    second: TrunkBudding_114
+  - first:
+      213: 2251075759971965437
+    second: TrunkBudding_115
+  - first:
+      213: 283425973480789166
+    second: TrunkBudding_116
+  - first:
+      213: 1070416173099690972
+    second: TrunkBudding_117
+  - first:
+      213: -578857126619121029
+    second: TrunkBudding_118
+  - first:
+      213: 1003767960431968342
+    second: TrunkBudding_119
+  - first:
+      213: 1193840583289036283
+    second: TrunkBudding_120
+  - first:
+      213: 5599585592175633027
+    second: TrunkBudding_121
+  - first:
+      213: 4880338550969844902
+    second: TrunkBudding_122
+  - first:
+      213: 932557526709404099
+    second: TrunkBudding_123
+  - first:
+      213: 4744897937109302854
+    second: TrunkBudding_124
+  - first:
+      213: 3385591453448250884
+    second: TrunkBudding_125
+  - first:
+      213: 6843358227847797583
+    second: TrunkBudding_126
+  - first:
+      213: 1994280566988478207
+    second: TrunkBudding_127
+  - first:
+      213: 4630952656425019451
+    second: TrunkBudding_128
+  - first:
+      213: -2909207584073589091
+    second: TrunkBudding_129
+  - first:
+      213: -3284137719748352626
+    second: TrunkBudding_130
+  - first:
+      213: -8653404466762607395
+    second: TrunkBudding_131
+  - first:
+      213: -7372240101940675213
+    second: TrunkBudding_132
+  - first:
+      213: -8265057720069622830
+    second: TrunkBudding_133
+  - first:
+      213: 5579742163097180980
+    second: TrunkBudding_134
+  - first:
+      213: -409834930970031139
+    second: TrunkBudding_135
+  - first:
+      213: -8990000802158755329
+    second: TrunkBudding_136
+  - first:
+      213: 84478839495134756
+    second: TrunkBudding_137
+  - first:
+      213: -6609516519897750540
+    second: TrunkBudding_138
+  - first:
+      213: 7836972067508391027
+    second: TrunkBudding_139
+  - first:
+      213: -3587083123430810955
+    second: TrunkBudding_140
+  - first:
+      213: 9178490136952418346
+    second: TrunkBudding_141
+  - first:
+      213: -5213930027894212529
+    second: TrunkBudding_142
+  - first:
+      213: -4314711640620597355
+    second: TrunkBudding_143
+  - first:
+      213: 3786230799534321864
+    second: TrunkBudding_144
+  - first:
+      213: -4383679141915908038
+    second: TrunkBudding_145
+  - first:
+      213: -8685790616833437213
+    second: TrunkBudding_146
+  - first:
+      213: 8904428436432376400
+    second: TrunkBudding_147
+  - first:
+      213: -9179529175741079489
+    second: TrunkBudding_148
+  - first:
+      213: -200462161792943591
+    second: TrunkBudding_149
+  - first:
+      213: -1889218229951848679
+    second: TrunkBudding_150
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TrunkBudding_0
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 794
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368a028102a7d41e0800000000000000
+      internalID: -2211977563706709917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_1
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 790
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac062b44d48c2e3a0800000000000000
+      internalID: -6637522666600111926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_2
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 778
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcd10818ca47b390800000000000000
+      internalID: -7802685606139405135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_3
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 749
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028267bc054571970800000000000000
+      internalID: 8725535509041260576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_4
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 757
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7400d4c2c6ee72f0800000000000000
+      internalID: -973086745265437569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_5
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 756
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c5ac58d0a9decd0800000000000000
+      internalID: -2527194433015096217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_6
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 748
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10c97b482c71e320800000000000000
+      internalID: 2585484173594181661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_7
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 741
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a6521e2628701e0800000000000000
+      internalID: -2231671729143059873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_8
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 741
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928630c8452970d10800000000000000
+      internalID: 2091801443760826409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_9
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 734
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103f1fdc1b4248540800000000000000
+      internalID: 5009169031625831169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_10
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 725
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5dd10051b82c590800000000000000
+      internalID: -7655403494263892522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_11
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 740
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708c5de9f3d5ce050800000000000000
+      internalID: 5831138145367083015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 715
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837a1f22b0d3a0a90800000000000000
+      internalID: -7346992724061345992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_13
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 723
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536dd508c7fc8cbd0800000000000000
+      internalID: -2609607850424674763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 701
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8426ec7c7a2a4930800000000000000
+      internalID: 4128158722598249613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 705
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eed8a82e2c517710800000000000000
+      internalID: 1689232688561053413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_16
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 711
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a1d4b44e8debed0800000000000000
+      internalID: -2396239476687037832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_17
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 711
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15dc2f802102f0170800000000000000
+      internalID: 8146765512768146769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_18
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 693
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1124b72ce290c30800000000000000
+      internalID: 4326040329892532674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_19
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 700
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ea4518eed528ce0800000000000000
+      internalID: -1404456854832763294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_20
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 702
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f1c910bffb339b0800000000000000
+      internalID: -5101522868095934697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_21
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 693
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe742586397dc7e30800000000000000
+      internalID: 4502710755574040559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_22
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 687
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee991339086c1710800000000000000
+      internalID: 1665320350941552367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_23
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 695
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9163fe634f888f0800000000000000
+      internalID: -537911638692062783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_24
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 673
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f6a062652a5d4e0800000000000000
+      internalID: -1957479972133507234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_25
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 677
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cffd94442c7a8810800000000000000
+      internalID: 1768362298908213189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_26
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 679
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f1c38206a169160800000000000000
+      internalID: 7031836868479819610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_27
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 685
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825dc92ef80276cc0800000000000000
+      internalID: -3717967165016713944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_28
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 676
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d600c456c34b3da50800000000000000
+      internalID: 6544772854989979757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_29
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 676
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256122165414ee5f0800000000000000
+      internalID: -725570723721898414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_30
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 686
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d5142a6254c5100800000000000000
+      internalID: 98029324128574869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_31
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 670
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7787cd70e350a3470800000000000000
+      internalID: 8375012221026859127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_32
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 661
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8434d6253c428f130800000000000000
+      internalID: 3600668323402826568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_33
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 676
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2447524ed39ced0800000000000000
+      internalID: -2393313676880493865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_34
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 658
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e481b5f78ae2ca6a0800000000000000
+      internalID: -6436718466193221554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_35
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 664
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc7e54723ed5ca70800000000000000
+      internalID: 8846721351321287920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_36
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 660
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3051ed0325554c0800000000000000
+      internalID: -4299439899417443369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_37
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 653
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6517baae3ec00d0800000000000000
+      internalID: -3455136217061828917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 642
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2cbfddf3fb49870800000000000000
+      internalID: 8688779862132638420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 648
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fc6c6167c6b61a0800000000000000
+      internalID: -6815234356651044997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_40
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 653
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0571ff2362eb480800000000000000
+      internalID: -8881619414658101064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_41
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 646
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a204b5251201a2660800000000000000
+      internalID: 7361714276192174122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_42
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 653
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00561bd7c1613dc60800000000000000
+      internalID: 7841635687805838592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_43
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 647
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4479db7e20711c490800000000000000
+      internalID: -7727870184345725116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_44
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 634
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2a5b9ddf5a94f50800000000000000
+      internalID: 6866201616600900263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_45
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 643
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d905c59c04dfb630800000000000000
+      internalID: 3945104949117258196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_46
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 637
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5d827bddac7a740800000000000000
+      internalID: 5163318551413052873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_47
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 638
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cac7504c163d8f50800000000000000
+      internalID: 6885218900285835976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_48
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 639
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4ae4f1233a229a0800000000000000
+      internalID: -6259261096422628105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_49
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 639
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d36df6058ff6b620800000000000000
+      internalID: 2789697966015603666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_50
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 626
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab1dae2e01f7af70800000000000000
+      internalID: 9198585807142460328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_51
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 635
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a109a4b0953c9a90800000000000000
+      internalID: -7305905599879249502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_52
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 634
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee24ff8a4c9e97d0800000000000000
+      internalID: -2909716465178104093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_53
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 633
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65be878850edb8c30800000000000000
+      internalID: 4362824779384286038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_54
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 632
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59fb1dad6a98ec20800000000000000
+      internalID: 3236006128112105820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_55
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 613
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ee1b9bb46493fc0800000000000000
+      internalID: -3514700743134024185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_56
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 607
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7032950825d8a2da0800000000000000
+      internalID: -5968802970646011129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_57
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 623
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0d2d04e708e8ed0800000000000000
+      internalID: -2409847470854844161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_58
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 623
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9931461e6c62ed0800000000000000
+      internalID: -2439043476825597505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_59
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 615
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b50a47e511bc6f00800000000000000
+      internalID: 1111457915686487481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_60
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 619
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca445a7496f5bc80800000000000000
+      internalID: -8307462820047074613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_61
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 625
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d7f2d730bf19b60800000000000000
+      internalID: 7751252426085072185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_62
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 621
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc1283573820e010800000000000000
+      internalID: 1216016117479382206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_63
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 612
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba534084636a50070800000000000000
+      internalID: 8072040659198162347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_64
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 611
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4499f43648067e0800000000000000
+      internalID: -1774272691111901998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_65
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 606
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f97310bb1bc4da0800000000000000
+      internalID: -5959192790180585610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_66
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 617
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9859bfe98a97a80800000000000000
+      internalID: -8468552223514326615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_67
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 614
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb2751164d15cd00800000000000000
+      internalID: 992231479680904132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_68
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 617
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f74ef4caf38c6c0800000000000000
+      internalID: -4122975449550389369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_69
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 604
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ba22adc283d16e0800000000000000
+      internalID: -1865272905372095725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_70
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 606
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359f4c149bf1fa200800000000000000
+      internalID: 193408189533059411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_71
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 609
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15ec12974c591870800000000000000
+      internalID: 8654049621432919327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_72
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 603
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092e2d6fcdd108d00800000000000000
+      internalID: 972810354383053456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_73
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 608
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bb52c7392f90be0800000000000000
+      internalID: -1510409484749128867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_74
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 602
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9c5f8fa100daec0800000000000000
+      internalID: -3554184415079446081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_75
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 591
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05041daa661736c40800000000000000
+      internalID: 5504367855343321168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_76
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 599
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd2385fe8a845940800000000000000
+      internalID: 5284000609421438409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_77
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 592
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8d5ebff8a8311b0800000000000000
+      internalID: -5687049553427703609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_78
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 599
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a49ed9225ae87a0800000000000000
+      internalID: -6372974854585890171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_79
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 596
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea36ed61a9e9752e0800000000000000
+      internalID: -2137065113518185554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_80
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 597
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9339776d9265ff30800000000000000
+      internalID: 4608698221868954525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_81
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 589
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d94ec28ac38dae0800000000000000
+      internalID: -1524401780859560549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_82
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 590
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4587137a7e30a90800000000000000
+      internalID: -7348775461662993220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_83
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 583
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e686179f9b5892ff0800000000000000
+      internalID: -60370086192387986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_84
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 588
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732ea919cef19c470800000000000000
+      internalID: 8415292479634072119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_85
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 589
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041b5bb628a881770800000000000000
+      internalID: 8581761382711931200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_86
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 583
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750a3c4db3e699120800000000000000
+      internalID: 2421087477940068439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_87
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 573
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e348563ed524f43e0800000000000000
+      internalID: -2067360732925295554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_88
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 580
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fac3ec807eaa0d0800000000000000
+      internalID: -3410659742773891302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_89
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 576
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7411aeb4aecbd40800000000000000
+      internalID: 5601609648312502189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_90
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 576
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62554ed1c44d9610800000000000000
+      internalID: 1629534239626449514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_91
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 575
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053484b50a57d1330800000000000000
+      internalID: 3683229401845613392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_92
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 578
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff122841a2bd0090800000000000000
+      internalID: -8066594951781015558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_93
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 582
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62b295ea58ab9ec0800000000000000
+      internalID: -3559065972154125714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_94
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 583
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c67d3d4505d24e0800000000000000
+      internalID: -2004857933848417257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_95
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 581
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e72a736e9ee7350800000000000000
+      internalID: 6016503327198707269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_96
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 563
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a330241f9e22d740800000000000000
+      internalID: 5175250182574453670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_97
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 571
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4797de58b8fd6ee40800000000000000
+      internalID: 5685477369942210932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_98
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 570
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bdeac14d91a4710800000000000000
+      internalID: 1678182209953913716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_99
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 572
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf655107ae88dba0800000000000000
+      internalID: -6063940050321313830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_100
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 567
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d4d29faf69199a0800000000000000
+      internalID: -6228030805010199163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_101
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 569
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08e3883708ebe8a0800000000000000
+      internalID: -6274666538100070390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_102
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 568
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d00aab643687dbf0800000000000000
+      internalID: -299623290494123824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_103
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 569
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b3b68656faddc00800000000000000
+      internalID: 927089948386605970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_104
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 572
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b817b1c1884afd0800000000000000
+      internalID: -2331589052770186403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_105
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 557
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fae44bcc762ba2d0800000000000000
+      internalID: -3266474787299071246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_106
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 561
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529ce8eae4638bcf0800000000000000
+      internalID: -236379268873008859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_107
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 565
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16b2d52fbd0527f0800000000000000
+      internalID: -638088657578576357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_108
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 564
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbec6e3d2a9c2b30800000000000000
+      internalID: 4263952466324548568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_109
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 562
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f031a42b6c00a1f60800000000000000
+      internalID: 8005712140999201551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_110
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 564
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67eb02b85c02c2be0800000000000000
+      internalID: -1500788543006392714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_111
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 560
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a8c1e8374e5d900800000000000000
+      internalID: 708723701337328130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_112
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 560
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad8c9227ea41fb50800000000000000
+      internalID: 6625158883417296293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_113
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 556
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1493f71a637c6e9d0800000000000000
+      internalID: -2745287885384107711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_114
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 549
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2113692810bd63280800000000000000
+      internalID: -9063816400504213230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_115
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 554
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df91f9b1a7d6d3f10800000000000000
+      internalID: 2251075759971965437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_116
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 554
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea41175db6eeee300800000000000000
+      internalID: 283425973480789166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_117
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 548
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdba07f86d1eade00800000000000000
+      internalID: 1070416173099690972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_118
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 555
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7af920a28c77f7f0800000000000000
+      internalID: -578857126619121029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_119
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 552
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650477e44a91eed00800000000000000
+      internalID: 1003767960431968342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_120
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 556
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd536d6faf519010800000000000000
+      internalID: 1193840583289036283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_121
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 549
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382260f9d69b5bd40800000000000000
+      internalID: 5599585592175633027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_122
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 551
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4c3321e027ab340800000000000000
+      internalID: 4880338550969844902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_123
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 555
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c18120312c11fc00800000000000000
+      internalID: 932557526709404099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_124
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 542
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e32e4c88349d140800000000000000
+      internalID: 4744897937109302854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_125
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 540
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406a1614d790cfe20800000000000000
+      internalID: 3385591453448250884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_126
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 543
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b5d91fc0e78fe50800000000000000
+      internalID: 6843358227847797583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_127
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 545
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff610d90c9b1dab10800000000000000
+      internalID: 1994280566988478207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_128
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 545
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b386dd9b7e2744040800000000000000
+      internalID: 4630952656425019451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_129
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 543
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9edb6dad1b60a7d0800000000000000
+      internalID: -2909207584073589091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_130
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 549
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8520fcd4266c62d0800000000000000
+      internalID: -3284137719748352626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_131
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 547
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd416d43c7ee8e780800000000000000
+      internalID: -8653404466762607395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_132
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 538
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dbfe4efaa80b990800000000000000
+      internalID: -7372240101940675213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_133
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 542
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d376233bcd9c4d80800000000000000
+      internalID: -8265057720069622830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_134
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 538
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b5da14fe93f6d40800000000000000
+      internalID: 5579742163097180980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_135
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 535
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb0cfa3d49ff4af0800000000000000
+      internalID: -409834930970031139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_136
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 528
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1c9d8c6e91d3380800000000000000
+      internalID: -8990000802158755329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_137
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 539
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e05239e012c2100800000000000000
+      internalID: 84478839495134756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_138
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 538
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f32b6e6eb74644a0800000000000000
+      internalID: -6609516519897750540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_139
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 528
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c0f76c29482cc60800000000000000
+      internalID: 7836972067508391027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_140
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 530
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba9b1887ee183ec0800000000000000
+      internalID: -3587083123430810955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_141
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 528
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20b97b562c806f70800000000000000
+      internalID: 9178490136952418346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_142
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 526
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f487f93a34664a7b0800000000000000
+      internalID: -5213930027894212529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_143
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 530
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ff0988f901f14c0800000000000000
+      internalID: -4314711640620597355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_144
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 535
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0f2e31ad46b8430800000000000000
+      internalID: 3786230799534321864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_145
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 519
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3820d0db0b0a23c0800000000000000
+      internalID: -4383679141915908038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_146
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 519
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1d83a047fd57780800000000000000
+      internalID: -8685790616833437213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_147
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 514
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05250793c72e29b70800000000000000
+      internalID: 8904428436432376400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_148
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 508
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f306e9299d2cb9080800000000000000
+      internalID: -9179529175741079489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_149
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 499
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91abc67d9b0d73df0800000000000000
+      internalID: -200462161792943591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrunkBudding_150
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 490
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f1784870628c5e0800000000000000
+      internalID: -1889218229951848679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TrunkBudding_0: -2211977563706709917
+      TrunkBudding_1: -6637522666600111926
+      TrunkBudding_10: -7655403494263892522
+      TrunkBudding_100: -6228030805010199163
+      TrunkBudding_101: -6274666538100070390
+      TrunkBudding_102: -299623290494123824
+      TrunkBudding_103: 927089948386605970
+      TrunkBudding_104: -2331589052770186403
+      TrunkBudding_105: -3266474787299071246
+      TrunkBudding_106: -236379268873008859
+      TrunkBudding_107: -638088657578576357
+      TrunkBudding_108: 4263952466324548568
+      TrunkBudding_109: 8005712140999201551
+      TrunkBudding_11: 5831138145367083015
+      TrunkBudding_110: -1500788543006392714
+      TrunkBudding_111: 708723701337328130
+      TrunkBudding_112: 6625158883417296293
+      TrunkBudding_113: -2745287885384107711
+      TrunkBudding_114: -9063816400504213230
+      TrunkBudding_115: 2251075759971965437
+      TrunkBudding_116: 283425973480789166
+      TrunkBudding_117: 1070416173099690972
+      TrunkBudding_118: -578857126619121029
+      TrunkBudding_119: 1003767960431968342
+      TrunkBudding_12: -7346992724061345992
+      TrunkBudding_120: 1193840583289036283
+      TrunkBudding_121: 5599585592175633027
+      TrunkBudding_122: 4880338550969844902
+      TrunkBudding_123: 932557526709404099
+      TrunkBudding_124: 4744897937109302854
+      TrunkBudding_125: 3385591453448250884
+      TrunkBudding_126: 6843358227847797583
+      TrunkBudding_127: 1994280566988478207
+      TrunkBudding_128: 4630952656425019451
+      TrunkBudding_129: -2909207584073589091
+      TrunkBudding_13: -2609607850424674763
+      TrunkBudding_130: -3284137719748352626
+      TrunkBudding_131: -8653404466762607395
+      TrunkBudding_132: -7372240101940675213
+      TrunkBudding_133: -8265057720069622830
+      TrunkBudding_134: 5579742163097180980
+      TrunkBudding_135: -409834930970031139
+      TrunkBudding_136: -8990000802158755329
+      TrunkBudding_137: 84478839495134756
+      TrunkBudding_138: -6609516519897750540
+      TrunkBudding_139: 7836972067508391027
+      TrunkBudding_14: 4128158722598249613
+      TrunkBudding_140: -3587083123430810955
+      TrunkBudding_141: 9178490136952418346
+      TrunkBudding_142: -5213930027894212529
+      TrunkBudding_143: -4314711640620597355
+      TrunkBudding_144: 3786230799534321864
+      TrunkBudding_145: -4383679141915908038
+      TrunkBudding_146: -8685790616833437213
+      TrunkBudding_147: 8904428436432376400
+      TrunkBudding_148: -9179529175741079489
+      TrunkBudding_149: -200462161792943591
+      TrunkBudding_15: 1689232688561053413
+      TrunkBudding_150: -1889218229951848679
+      TrunkBudding_16: -2396239476687037832
+      TrunkBudding_17: 8146765512768146769
+      TrunkBudding_18: 4326040329892532674
+      TrunkBudding_19: -1404456854832763294
+      TrunkBudding_2: -7802685606139405135
+      TrunkBudding_20: -5101522868095934697
+      TrunkBudding_21: 4502710755574040559
+      TrunkBudding_22: 1665320350941552367
+      TrunkBudding_23: -537911638692062783
+      TrunkBudding_24: -1957479972133507234
+      TrunkBudding_25: 1768362298908213189
+      TrunkBudding_26: 7031836868479819610
+      TrunkBudding_27: -3717967165016713944
+      TrunkBudding_28: 6544772854989979757
+      TrunkBudding_29: -725570723721898414
+      TrunkBudding_3: 8725535509041260576
+      TrunkBudding_30: 98029324128574869
+      TrunkBudding_31: 8375012221026859127
+      TrunkBudding_32: 3600668323402826568
+      TrunkBudding_33: -2393313676880493865
+      TrunkBudding_34: -6436718466193221554
+      TrunkBudding_35: 8846721351321287920
+      TrunkBudding_36: -4299439899417443369
+      TrunkBudding_37: -3455136217061828917
+      TrunkBudding_38: 8688779862132638420
+      TrunkBudding_39: -6815234356651044997
+      TrunkBudding_4: -973086745265437569
+      TrunkBudding_40: -8881619414658101064
+      TrunkBudding_41: 7361714276192174122
+      TrunkBudding_42: 7841635687805838592
+      TrunkBudding_43: -7727870184345725116
+      TrunkBudding_44: 6866201616600900263
+      TrunkBudding_45: 3945104949117258196
+      TrunkBudding_46: 5163318551413052873
+      TrunkBudding_47: 6885218900285835976
+      TrunkBudding_48: -6259261096422628105
+      TrunkBudding_49: 2789697966015603666
+      TrunkBudding_5: -2527194433015096217
+      TrunkBudding_50: 9198585807142460328
+      TrunkBudding_51: -7305905599879249502
+      TrunkBudding_52: -2909716465178104093
+      TrunkBudding_53: 4362824779384286038
+      TrunkBudding_54: 3236006128112105820
+      TrunkBudding_55: -3514700743134024185
+      TrunkBudding_56: -5968802970646011129
+      TrunkBudding_57: -2409847470854844161
+      TrunkBudding_58: -2439043476825597505
+      TrunkBudding_59: 1111457915686487481
+      TrunkBudding_6: 2585484173594181661
+      TrunkBudding_60: -8307462820047074613
+      TrunkBudding_61: 7751252426085072185
+      TrunkBudding_62: 1216016117479382206
+      TrunkBudding_63: 8072040659198162347
+      TrunkBudding_64: -1774272691111901998
+      TrunkBudding_65: -5959192790180585610
+      TrunkBudding_66: -8468552223514326615
+      TrunkBudding_67: 992231479680904132
+      TrunkBudding_68: -4122975449550389369
+      TrunkBudding_69: -1865272905372095725
+      TrunkBudding_7: -2231671729143059873
+      TrunkBudding_70: 193408189533059411
+      TrunkBudding_71: 8654049621432919327
+      TrunkBudding_72: 972810354383053456
+      TrunkBudding_73: -1510409484749128867
+      TrunkBudding_74: -3554184415079446081
+      TrunkBudding_75: 5504367855343321168
+      TrunkBudding_76: 5284000609421438409
+      TrunkBudding_77: -5687049553427703609
+      TrunkBudding_78: -6372974854585890171
+      TrunkBudding_79: -2137065113518185554
+      TrunkBudding_8: 2091801443760826409
+      TrunkBudding_80: 4608698221868954525
+      TrunkBudding_81: -1524401780859560549
+      TrunkBudding_82: -7348775461662993220
+      TrunkBudding_83: -60370086192387986
+      TrunkBudding_84: 8415292479634072119
+      TrunkBudding_85: 8581761382711931200
+      TrunkBudding_86: 2421087477940068439
+      TrunkBudding_87: -2067360732925295554
+      TrunkBudding_88: -3410659742773891302
+      TrunkBudding_89: 5601609648312502189
+      TrunkBudding_9: 5009169031625831169
+      TrunkBudding_90: 1629534239626449514
+      TrunkBudding_91: 3683229401845613392
+      TrunkBudding_92: -8066594951781015558
+      TrunkBudding_93: -3559065972154125714
+      TrunkBudding_94: -2004857933848417257
+      TrunkBudding_95: 6016503327198707269
+      TrunkBudding_96: 5175250182574453670
+      TrunkBudding_97: 5685477369942210932
+      TrunkBudding_98: 1678182209953913716
+      TrunkBudding_99: -6063940050321313830
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
