@@ -13,6 +13,9 @@ public class RootButton : MonoBehaviour
 
     Color initialColor;
 
+    public float waterMultiplier = 1f;
+    public float cooldownMultiplier = 1f;
+
     private void Start()
     {
         initialColor = iconImage.color;
@@ -38,13 +41,13 @@ public class RootButton : MonoBehaviour
     {
         if (coolingDown) return;
 
-        GameManager.Instance.AddWater(waterAmount);
+        GameManager.Instance.AddWater(waterAmount * waterMultiplier);
         StartCooldown();
     }
 
     void StartCooldown()
     {
-        timer = cooldown;
+        timer = cooldown / cooldownMultiplier;
         coolingDown = true;
         cooldownImage.fillAmount = 1f;
         Color deactivatedColor = initialColor * 0.5f;

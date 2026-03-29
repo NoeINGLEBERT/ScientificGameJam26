@@ -42,6 +42,8 @@ public class TreeSystem : MonoBehaviour
 
     public float[] flowerBloom;
     public float[] fruitSize;
+
+    public float consumptionMultiplier = 1f;
     void Start()
     {
         InitializeArrays();
@@ -53,7 +55,7 @@ public class TreeSystem : MonoBehaviour
 
         float dt = Time.deltaTime;
 
-        DrainAll(consumptionRate * dt);
+        DrainAll(consumptionRate * consumptionMultiplier * dt);
         UpdateFruitQuality(dt);
     }
 

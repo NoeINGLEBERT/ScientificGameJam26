@@ -11,18 +11,23 @@ public class TreeGrowthSystem : MonoBehaviour
     public Vector2Int fruitsPerBranch = new Vector2Int(1, 2);
 
     // Runtime
-    private float monthTimer;
     private float monthDuration;
-
     private int currentMonth = -1;
 
     private int targetLeaves;
     private int targetFlowers;
     private int targetFruits;
 
-    private int grownLeaves;
-    private int grownFlowers;
-    private int grownFruits;
+    // Accumulators (TIME-BASED)
+    private float leafAcc;
+    private float flowerAcc;
+    private float fruitAcc;
+    private float leafFallAcc;
+
+    // 🍑 Deterministic fruit plan
+    private int[] fruitPlan; // how many fruits each flower will produce
+
+    private int initialLeafCount;
 
     void Start()
     {
@@ -36,18 +41,13 @@ public class TreeGrowthSystem : MonoBehaviour
     {
         int newMonth = timeline.GetCurrentMonth();
 
-        // Detect month change
         if (newMonth != currentMonth)
         {
             currentMonth = newMonth;
             InitMonth(currentMonth);
         }
 
-        monthTimer += Time.deltaTime;
-
-        float progress = Mathf.Clamp01(monthTimer / monthDuration);
-
-        UpdateGrowth(progress);
+        UpdateGrowth();
     }
 
     // =========================
@@ -55,37 +55,33 @@ public class TreeGrowthSystem : MonoBehaviour
     // =========================
     void InitMonth(int month)
     {
-        monthTimer = 0f;
+        leafAcc = 0f;
+        flowerAcc = 0f;
+        fruitAcc = 0f;
+        leafFallAcc = 0f;
 
-        grownLeaves = 0;
-        grownFlowers = 0;
-        grownFruits = 0;
+        targetLeaves = 0;
+        targetFlowers = 0;
+        targetFruits = 0;
 
         int branchCount = tree.branchHydricStatus.Length;
 
         switch (month)
         {
-            case 1: // FEBRUARY
-                targetLeaves = branchCount * leavesPerBranch;
-                tree.leafHydricStatus = new float[0];
-                break;
-
-            case 2: // MARCH
-                targetFlowers = tree.leafHydricStatus.Length;
-                tree.flowerBloom = new float[0];
+            case 1: // FEB
+            case 2: // MAR
+                targetFlowers = branchCount;
                 break;
 
             case 3: // APRIL
-                targetFruits = tree.flowerBloom.Length;
+                int flowerCount = branchCount;
 
-                tree.peachHydricStatus = new float[0];
-                tree.peachQuality = new float[0];
-                tree.fruitSize = new float[0];
+                targetLeaves = flowerCount;
 
                 break;
 
-            case 8: // SEPTEMBER
-                // Leaf fall handled progressively
+            case 8:
+                initialLeafCount = tree.leafHydricStatus.Length;
                 break;
         }
     }
@@ -93,34 +89,124 @@ public class TreeGrowthSystem : MonoBehaviour
     // =========================
     // MAIN UPDATE
     // =========================
-    void UpdateGrowth(float progress)
+    void UpdateGrowth()
     {
         switch (currentMonth)
         {
-            case 1: UpdateLeaves(progress); break;
-            case 2: UpdateFlowers(progress); break;
-            case 3:
-                UpdateFruitConversion(progress); // 🌸 → 🍑 over April
-                UpdateFruitGrowth(progress);
+            case 1:
+            case 2:
+                UpdateFlowers();
                 break;
+
+            case 3:
+                UpdateLeaves();
+                UpdateFruitConversion();
+                UpdateFruitGrowth();
+                break;
+
             case 4:
             case 5:
             case 6:
             case 7:
-                UpdateFruitGrowth(progress);
+                UpdateFruitGrowth();
                 break;
-            case 8: UpdateLeafFall(progress); break;
+
+            case 8:
+                UpdateLeafFall();
+                break;
         }
     }
 
-    void UpdateFruitConversion(float progress)
+    // =========================
+    // 🌸 FLOWERS
+    // =========================
+    void UpdateFlowers()
     {
-        int expected = Mathf.FloorToInt(progress * targetFruits);
+        if (targetFlowers <= 0) return;
 
-        while (grownFruits < expected && tree.flowerBloom.Length > 0)
+        float duration = GetEffectiveDuration();
+        float rate = targetFlowers / duration;
+
+        flowerAcc += rate * Time.deltaTime;
+
+        int toSpawn = Mathf.FloorToInt(flowerAcc);
+        if (toSpawn <= 0) return;
+
+        flowerAcc -= toSpawn;
+        AddFlowersBatch(toSpawn);
+    }
+
+    void AddFlowersBatch(int count)
+    {
+        int len = tree.flowerBloom.Length;
+        System.Array.Resize(ref tree.flowerBloom, len + count);
+
+        for (int i = 0; i < count; i++)
+        {
+            tree.flowerBloom[len + i] = 0f;
+            targetFlowers--;
+        }
+
+            
+    }
+
+    // =========================
+    // 🌿 LEAVES
+    // =========================
+    void UpdateLeaves()
+    {
+        if (targetLeaves <= 0) return;
+
+        float duration = GetEffectiveDuration();
+        float rate = targetLeaves / duration;
+
+        leafAcc += rate * Time.deltaTime;
+
+        int toSpawn = Mathf.FloorToInt(leafAcc);
+        if (toSpawn <= 0) return;
+
+        leafAcc -= toSpawn;
+
+        AddLeavesBatch(toSpawn);
+    }
+
+    void AddLeavesBatch(int count)
+    {
+        int len = tree.leafHydricStatus.Length;
+        System.Array.Resize(ref tree.leafHydricStatus, len + count);
+
+        for (int i = 0; i < count; i++)
+            tree.leafHydricStatus[len + i] = 0.5f;
+    }
+
+    // =========================
+    // 🍑 FRUIT CONVERSION
+    // =========================
+    private int fruitPlanIndex = 0;
+
+    void UpdateFruitConversion()
+    {
+        int flowerCount = tree.flowerBloom.Length;
+        if (flowerCount == 0) return;
+
+        float duration = GetEffectiveDuration();
+
+        // Convert ALL flowers within effective duration
+        float rate = flowerCount / duration;
+
+        fruitAcc += rate * Time.deltaTime;
+
+        int toConvert = Mathf.FloorToInt(fruitAcc);
+        if (toConvert <= 0) return;
+
+        fruitAcc -= toConvert;
+
+        // Clamp to available flowers
+        toConvert = Mathf.Min(toConvert, tree.flowerBloom.Length);
+
+        for (int i = 0; i < toConvert; i++)
         {
             ConvertFlowerToFruit();
-            grownFruits++;
         }
     }
 
@@ -129,142 +215,93 @@ public class TreeGrowthSystem : MonoBehaviour
         int flowerCount = tree.flowerBloom.Length;
         if (flowerCount == 0) return;
 
-        // 🔀 Pick random flower
         int index = Random.Range(0, flowerCount);
 
-        // Remove that flower
-        for (int i = index; i < flowerCount - 1; i++)
-            tree.flowerBloom[i] = tree.flowerBloom[i + 1];
-
+        // Remove flower (swap-back)
+        tree.flowerBloom[index] = tree.flowerBloom[flowerCount - 1];
         System.Array.Resize(ref tree.flowerBloom, flowerCount - 1);
 
-        // 🌸 → 🍑 Spawn 1 or 2 fruits
-        int fruitToSpawn = Random.Range(1, 3);
+        // 🔥 Random fruit count per flower
+        int fruitCount = Random.Range(fruitsPerBranch.x, fruitsPerBranch.y + 1);
 
-        for (int f = 0; f < fruitToSpawn; f++)
+        AddFruitsBatch(fruitCount);
+    }
+
+    void AddFruitsBatch(int count)
+    {
+        int len = tree.peachHydricStatus.Length;
+
+        System.Array.Resize(ref tree.peachHydricStatus, len + count);
+        System.Array.Resize(ref tree.peachQuality, len + count);
+        System.Array.Resize(ref tree.fruitSize, len + count);
+
+        for (int i = 0; i < count; i++)
         {
-            int fruitCount = tree.peachHydricStatus.Length;
+            int idx = len + i;
 
-            System.Array.Resize(ref tree.peachHydricStatus, fruitCount + 1);
-            System.Array.Resize(ref tree.peachQuality, fruitCount + 1);
-            System.Array.Resize(ref tree.fruitSize, fruitCount + 1);
-
-            tree.peachHydricStatus[fruitCount] = 0.5f;
-            tree.peachQuality[fruitCount] = 0.5f;
-            tree.fruitSize[fruitCount] = 0.1f;
+            tree.peachHydricStatus[idx] = 0.5f;
+            tree.peachQuality[idx] = 0.5f;
+            tree.fruitSize[idx] = 0.1f;
         }
     }
 
     // =========================
-    // 🌿 LEAVES (FEB)
+    // 🍑 FRUIT GROWTH
     // =========================
-    void UpdateLeaves(float progress)
-    {
-        int expected = Mathf.FloorToInt(progress * targetLeaves);
-
-        while (grownLeaves < expected)
-        {
-            AddLeaf();
-            grownLeaves++;
-        }
-    }
-
-    void AddLeaf()
-    {
-        int len = tree.leafHydricStatus.Length;
-
-        System.Array.Resize(ref tree.leafHydricStatus, len + 1);
-        tree.leafHydricStatus[len] = 0.5f;
-    }
-
-    // =========================
-    // 🌸 FLOWERS (MARCH)
-    // =========================
-    void UpdateFlowers(float progress)
-    {
-        int expected = Mathf.FloorToInt(progress * targetFlowers);
-
-        while (grownFlowers < expected)
-        {
-            AddFlower();
-            grownFlowers++;
-        }
-    }
-
-    void AddFlower()
-    {
-        int len = tree.flowerBloom.Length;
-
-        System.Array.Resize(ref tree.flowerBloom, len + 1);
-        tree.flowerBloom[len] = 0f;
-    }
-
-    // =========================
-    // 🍑 FRUITS (APRIL → AUG)
-    // =========================
-    void StartFruits(int branchCount)
-    {
-        // Remove flowers
-        tree.flowerBloom = new float[0];
-
-        targetFruits = 0;
-
-        for (int i = 0; i < branchCount; i++)
-            targetFruits += Random.Range(fruitsPerBranch.x, fruitsPerBranch.y + 1);
-
-        tree.peachHydricStatus = new float[targetFruits];
-        tree.peachQuality = new float[targetFruits];
-        tree.fruitSize = new float[targetFruits];
-
-        for (int i = 0; i < targetFruits; i++)
-        {
-            tree.peachHydricStatus[i] = 0.5f;
-            tree.peachQuality[i] = 0.5f;
-            tree.fruitSize[i] = 0.1f; // small start
-        }
-    }
-
-    void UpdateFruitGrowth(float progress)
+    void UpdateFruitGrowth()
     {
         if (tree.fruitSize == null) return;
 
         float growthPerSecond = (1f - 0.1f) / (4f * monthDuration);
-
         int month = timeline.GetCurrentMonth();
 
         for (int i = 0; i < tree.fruitSize.Length; i++)
         {
-            // Grow continuously
             tree.fruitSize[i] += growthPerSecond * Time.deltaTime;
 
-            // 🚫 Don't allow full growth before August
             if (month < 7)
                 tree.fruitSize[i] = Mathf.Min(tree.fruitSize[i], 0.95f);
 
-            // Clamp final size
             tree.fruitSize[i] = Mathf.Clamp01(tree.fruitSize[i]);
         }
     }
 
     // =========================
-    // 🍂 LEAF FALL (SEPT)
+    // 🍂 LEAF FALL
     // =========================
-    void UpdateLeafFall(float progress)
+    void UpdateLeafFall()
     {
-        int total = tree.leafHydricStatus.Length;
-        int targetRemaining = Mathf.CeilToInt((1f - progress) * total);
+        int current = tree.leafHydricStatus.Length;
+        if (current == 0) return;
 
-        while (tree.leafHydricStatus.Length > targetRemaining)
-        {
-            RemoveLeaf();
-        }
+        float duration = GetEffectiveDuration();
+
+        // ✅ FIX: use initial count, not current
+        float rate = initialLeafCount / duration;
+
+        leafFallAcc += rate * Time.deltaTime;
+
+        int toRemove = Mathf.FloorToInt(leafFallAcc);
+        if (toRemove <= 0) return;
+
+        leafFallAcc -= toRemove;
+
+        // Clamp so we never try removing more than we have
+        toRemove = Mathf.Min(toRemove, current);
+
+        RemoveLeavesBatch(toRemove);
     }
 
-    void RemoveLeaf()
+    void RemoveLeavesBatch(int count)
     {
         int len = tree.leafHydricStatus.Length;
-        if (len == 0) return;
+        int newLen = Mathf.Max(0, len - count);
 
-        System.Array.Resize(ref tree.leafHydricStatus, len - 1);
+        System.Array.Resize(ref tree.leafHydricStatus, newLen);
+    }
+
+    float GetEffectiveDuration()
+    {
+        return monthDuration * (1f / 3f);
     }
 }

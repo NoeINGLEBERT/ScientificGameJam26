@@ -36,6 +36,11 @@ public class TimelineSystem : MonoBehaviour
 
     private bool isPaused = false;
 
+    [Header("Dormancy UI")]
+    public CanvasGroup dormancyGroup;
+    public TextMeshProUGUI dormancyText;
+    public float fadeSpeed = 3f;
+
     private readonly int[] daysInMonths = new int[]
     {
         31,28,31,30,31,30,31,31,30,31,30,31
@@ -43,8 +48,8 @@ public class TimelineSystem : MonoBehaviour
 
     private readonly string[] monthNames = new string[]
     {
-        "January","February","March","April","May","June",
-        "July","August","September","October","November","December"
+        "Jan","Fev","Mar","Avr","Mai","Juin",
+        "Juil","Aout","Sept","Oct","Nov","Dec"
     };
 
     public TreeSystem tree;
@@ -56,13 +61,33 @@ public class TimelineSystem : MonoBehaviour
 
         GenerateTemperature(); // initial temp
         UpdateDateUI();
+
+        if (dormancyText != null)
+        {
+            dormancyText.text = "Dormance (x4)";
+        }
+    }
+
+    void UpdateDormancyUI()
+    {
+        if (dormancyGroup == null) return;
+
+        float targetAlpha = IsDormantMonth(currentMonth) ? 1f : 0f;
+
+        dormancyGroup.alpha = Mathf.Lerp(
+            dormancyGroup.alpha,
+            targetAlpha,
+            Time.deltaTime * fadeSpeed
+        );
     }
 
     void Update()
     {
         if (isPaused) return;
 
-        float dt = Time.deltaTime;
+        float speedMultiplier = IsDormantMonth(currentMonth) ? 4f : 1f;
+
+        float dt = Time.deltaTime * speedMultiplier;
         timer += dt;
 
         float monthProgress = timer / monthDuration;
@@ -76,6 +101,7 @@ public class TimelineSystem : MonoBehaviour
 
         UpdateDay(monthProgress);
         UpdateTimelineVisual(monthProgress);
+        UpdateDormancyUI();
     }
 
     // =========================
@@ -91,6 +117,11 @@ public class TimelineSystem : MonoBehaviour
 
         timer -= monthDuration;
         NextMonth();
+    }
+
+    bool IsDormantMonth(int month)
+    {
+        return month == 9 || month == 10 || month == 11 || month == 0;
     }
 
     public void ResumeAfterEvent()
