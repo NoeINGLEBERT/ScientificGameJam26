@@ -40,6 +40,8 @@ public class TreeSystem : MonoBehaviour
     [Header("Runtime State")]
     public bool isPaused = false;
 
+    public float[] flowerBloom;
+    public float[] fruitSize;
     void Start()
     {
         InitializeArrays();

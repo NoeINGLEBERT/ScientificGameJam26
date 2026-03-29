@@ -83,11 +83,14 @@ public class TimelineSystem : MonoBehaviour
     // =========================
     void PauseForEvent()
     {
-        isPaused = true;
-        tree.isPaused = true;
+        //isPaused = true;
+        //tree.isPaused = true;
 
-        // Notify external systems
-        OnMonthEnded?.Invoke(currentMonth);
+        //// Notify external systems
+        //OnMonthEnded?.Invoke(currentMonth);
+
+        timer -= monthDuration;
+        NextMonth();
     }
 
     public void ResumeAfterEvent()
