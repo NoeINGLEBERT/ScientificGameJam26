@@ -3,56 +3,89 @@ using UnityEngine.UI;
 
 public class RootButton : MonoBehaviour
 {
-    public Image iconImage;
-    public Image cooldownImage;
-    public float cooldown = 5f;
+    [Header("UI")]
+    public Button rootButton;          // bouton à cliquer
+    public Image waterBar;             // barre d'eau
+    public Image buttonBackground;     // image du bouton à griser
+
+    [Header("Settings")]
+    public float clickConsumption = 0.2f; // 20% par clic
+    public float cooldownDuration = 30f;  // temps pour recharger
+    public float waterMultiplier = 1f;
     public float waterAmount = 3f;
 
-    float timer = 0f;
-    bool coolingDown = false;
+    private float currentWater = 1f;
+    private bool isCoolingDown = false;
+    private float cooldownTimer = 0f;
+    private float cooldownMultiplier = 1f;
 
-    Color initialColor;
-
-    public float waterMultiplier = 1f;
-    public float cooldownMultiplier = 1f;
+    private Color normalColor;
+    public Color disabledColor = Color.gray;
 
     private void Start()
     {
-        initialColor = iconImage.color;
+        currentWater = 1f;
+        UpdateWaterBar();
+
+        if (buttonBackground != null)
+            normalColor = buttonBackground.color;
     }
 
-    void Update()
+    private void Update()
     {
-        if (!coolingDown) return;
+        if (!isCoolingDown) return;
 
-        timer -= Time.deltaTime;
-        cooldownImage.fillAmount = 1f - (timer / cooldown);
+        cooldownTimer += Time.deltaTime * cooldownMultiplier;
+        currentWater = Mathf.Clamp01(cooldownTimer / cooldownDuration);
+        UpdateWaterBar();
 
-        if (timer <= 0f)
+        if (buttonBackground != null)
+            buttonBackground.color = disabledColor;
+
+        if (cooldownTimer >= cooldownDuration)
         {
-            coolingDown = false;
-            cooldownImage.fillAmount = 0f;
-            iconImage.color = initialColor;
-            iconImage.rectTransform.sizeDelta = new Vector2(45, 45);
+            isCoolingDown = false;
+            rootButton.interactable = true;
+            cooldownDuration = 30f; // remet la durée originale
+            cooldownMultiplier = 1f; // remet la vitesse normale
+
+            if (buttonBackground != null)
+                buttonBackground.color = normalColor;
         }
     }
 
     public void OnClick()
     {
-        if (coolingDown) return;
-
+        if (isCoolingDown) return;
         GameManager.Instance.AddWater(waterAmount * waterMultiplier);
-        StartCooldown();
+        currentWater -= clickConsumption;
+        currentWater = Mathf.Max(currentWater, 0f);
+        UpdateWaterBar();
+
+        if (currentWater <= 0f)
+            StartCooldown();
     }
 
-    void StartCooldown()
+    private void StartCooldown()
     {
-        timer = cooldown / cooldownMultiplier;
-        coolingDown = true;
-        cooldownImage.fillAmount = 1f;
-        Color deactivatedColor = initialColor * 0.5f;
-        deactivatedColor.a = 1f;
-        iconImage.color = deactivatedColor;
-        iconImage.rectTransform.sizeDelta = new Vector2(40, 40);
+        isCoolingDown = true;
+        cooldownTimer = 0f;
+        rootButton.interactable = false;
+
+        if (buttonBackground != null)
+            buttonBackground.color = disabledColor;
+    }
+
+    private void UpdateWaterBar()
+    {
+        if (waterBar != null)
+            waterBar.fillAmount = currentWater;
+    }
+    public void AccelerateCooldown(float multiplier)
+    {
+        if (isCoolingDown)
+        {
+            cooldownMultiplier = multiplier;
+        }
     }
 }
