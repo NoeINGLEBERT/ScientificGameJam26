@@ -107,21 +107,23 @@ public class TreeUI : MonoBehaviour
         //    warning += $"Tree is too dry!\n";
         //else if (treeAvg > tree.optimalMax)
         //    warning += $"Tree is overwatered!\n";
-        warning += $"Tree: {(int)(treeAvg * 100)}\n";
+        warning += $"Arbre: {(int)(treeAvg * 100)}%\n";
 
         // Leaves
         //if (leafAvg < tree.optimalMin)
         //    warning += $"Leaves are drying!\n";
         //else if (leafAvg > tree.optimalMax)
         //    warning += $"Leaves are soaked!\n";
-        warning += $"Leaves: {(int)(leafAvg * 100)}\n";
+        if (tree.leafHydricStatus.Length > 0)
+            warning += $"Feuilles: {(int)(leafAvg * 100)}%\n";
 
         // Fruits
         //if (fruitAvg < tree.optimalMin)
         //    warning += $"Fruits lack water!\n";
         //else if (fruitAvg > tree.optimalMax)
         //    warning += $"Fruits are overwatered!\n";
-        warning += $"Fruits: {(int)(fruitAvg * 100)}\n";
+        if (tree.peachHydricStatus.Length > 0)
+            warning += $"Fruits: {(int)(fruitAvg * 100)}%\n";
 
         warningText.text = warning;
     }

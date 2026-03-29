@@ -114,7 +114,7 @@ public class TreeVisual : MonoBehaviour
         }
     }
 
-    // =========================
+    /// =========================
     // 🍑 FRUITS
     // =========================
     void UpdateFruits()
@@ -129,8 +129,12 @@ public class TreeVisual : MonoBehaviour
 
                 float size = tree.fruitSize[i];
 
-                // Scale fruit based on size
-                fruits[i].transform.localScale = Vector3.one * Mathf.Lerp(0.3f, 1f, size);
+                // ✅ IMPORTANT FIX:
+                // Only control scale BEFORE full size
+                if (size < 1f)
+                {
+                    fruits[i].transform.localScale = Vector3.one * Mathf.Lerp(0.3f, 1f, size);
+                }
             }
             else
             {

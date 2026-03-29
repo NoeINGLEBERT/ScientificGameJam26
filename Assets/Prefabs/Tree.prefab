@@ -2010,6 +2010,7 @@ GameObject:
   - component: {fileID: 3422775674861642718}
   - component: {fileID: 4914351419012474023}
   - component: {fileID: 3276617932992187176}
+  - component: {fileID: 1340873541327346368}
   m_Layer: 5
   m_Name: Tree
   m_TagString: Untagged
@@ -2135,6 +2136,7 @@ MonoBehaviour:
   isPaused: 0
   flowerBloom: []
   fruitSize: []
+  consumptionMultiplier: 1
 --- !u!114 &3422775674861642718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2290,6 +2292,21 @@ MonoBehaviour:
   - {fileID: 2504816049130627635}
   - {fileID: 8618888530833868674}
   - {fileID: 3211263665749925278}
+--- !u!114 &1340873541327346368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7559996392357893004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b748f18935e0142912dbf1ae46da19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tree: {fileID: 7898078956933396274}
+  peaches: []
+  visual: {fileID: 3276617932992187176}
 --- !u!1 &8078654542571610983
 GameObject:
   m_ObjectHideFlags: 0

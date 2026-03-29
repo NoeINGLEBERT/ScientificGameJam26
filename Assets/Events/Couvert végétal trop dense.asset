@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd959fac678e10346a9a60a39fbe22d8, type: 3}
+  m_Name: "Couvert v\xE9g\xE9tal trop dense"
+  m_EditorClassIdentifier: 
+  title: "Couvert v\xE9g\xE9tal trop dense"
+  description: "Ton verger est dispos\xE9 en rang\xE9es d\u2019arbres, un couvert
+    est pr\xE9sent entre les rangs et sur le rang entre tes arbres. Le couvert prot\xE8ge
+    ton sol, apporte des nutriments et constitue un refuge pour la faune locale.
+    Afin d\u2019apporter tous ces services, il a besoin d\u2019eau, s\u2019il devient
+    trop dense et trop vigoureux il rentre en comp\xE9tition avec ton arbre pour
+    la ressource hydrique de ton sol. "
+  choiceA:
+    name: Le broyer
+    previewText: "Ton couvert sera tondu mais recommencera son cycle de croissance
+      tu devras continuer \xE0 rester vigilant pour t\u2019assurer que l\u2019arbre
+      puisse utiliser l\u2019eau du sol sans qu\u2019elle soit davantage absorb\xE9e
+      par le couvert. Ton sol reste prot\xE9g\xE9e et l\u2019eau est conserv\xE9e
+      si la gestion est adapt\xE9e!"
+    effect: 0
+  choiceB:
+    name: Le retirer
+    previewText: "Tu retires le couvert compl\xE8tement, il n\u2019y a plus de comp\xE9tition
+      pour l\u2019eau. Mais l\u2019eau de ton sol s\u2019\xE9vapore comme il n\u2019y
+      a plus de couche v\xE9g\xE9tale pour la conserver. Les r\xE9serves en eau du
+      sol sont diminu\xE9es"
+    effect: 0

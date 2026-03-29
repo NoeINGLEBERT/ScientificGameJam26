@@ -10,15 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd959fac678e10346a9a60a39fbe22d8, type: 3}
-  m_Name: Pluie
+  m_Name: "S\xE8cheresse"
   m_EditorClassIdentifier: 
-  title: Pluie torrentielle
+  title: "S\xE8cheresse"
   description: "Aie aie aie il pleut \xE7a mouille"
   choiceA:
-    name: Parapluie
-    previewText: "Bonne id\xE9e"
+    name: Paillage
+    previewText: "La paille pos\xE9e \xE0 la surface du sol le prot\xE8ge de l\u2019\xE9vaporation,
+      tu ne perds pas d\u2019eau."
     effect: 0
   choiceB:
-    name: "Imperm\xE9able"
-    previewText: "Bonne id\xE9e aussi"
+    name: Irrigation
+    previewText: "ERREUR dans tous le cas irrigation n\xE9cessaire m\xEAme si pas
+      de s\xE9cheresse ; Tu augmentes l\u2019eau dans ton sol mais attention elle
+      s\u2019\xE9vapore vite !"
     effect: 0

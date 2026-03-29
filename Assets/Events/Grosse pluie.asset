@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd959fac678e10346a9a60a39fbe22d8, type: 3}
+  m_Name: Grosse pluie
+  m_EditorClassIdentifier: 
+  title: Grosse pluie
+  description: "Un orage s\u2019abat sur ton verger, il apporte de grandes quantit\xE9s
+    d\u2019eau, selon l\u2019eau d\xE9j\xE0 dans le sol cela pourrait avoir des impacts
+    aussi bien n\xE9gatifs que positifs."
+  choiceA:
+    name: "Laisser l\u2019eau s\u2019infiltrer"
+    previewText: "Tu augmenteras la quantit\xE9 d\u2019eau dans le sol, attention
+      \xE0 l\u2019inondation!"
+    effect: 0
+  choiceB:
+    name: Drainer le sol
+    previewText: "Tu r\xE9ussis \xE0 \xE9vacuer l\u2019eau du sol, cela pourrait
+      le rendre compl\xE8tement sec!"
+    effect: 0
