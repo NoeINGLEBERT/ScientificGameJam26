@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f9802ca63d7b72a41afd5494508a03ca
+guid: 0de18053ac29f2847844ea7b55492aec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8275054157509406287
-    second: ligne_haut_0
+      213: 4791770057493299788
+    second: WaterButton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ligne_haut_0
+      name: WaterButton_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 757
-        height: 32
+        x: 27
+        y: 27
+        width: 70
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b1588c361a192d80800000000000000
-      internalID: -8275054157509406287
+      spriteID: c42cd3aba79cf7240800000000000000
+      internalID: 4791770057493299788
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ligne_haut_0: -8275054157509406287
+      WaterButton_0: 4791770057493299788
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
