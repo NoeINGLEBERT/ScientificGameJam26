@@ -3464,6 +3464,10 @@ PrefabInstance:
       propertyPath: hydricBarFill
       value: 
       objectReference: {fileID: 189940046}
+    - target: {fileID: 4914351419012474023, guid: 15b5a2801b47c354f9359ac45a93e327, type: 3}
+      propertyPath: timeline
+      value: 
+      objectReference: {fileID: 1641794453}
     - target: {fileID: 7512495917293866313, guid: 15b5a2801b47c354f9359ac45a93e327, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3547,6 +3551,14 @@ PrefabInstance:
     - target: {fileID: 7559996392357893004, guid: 15b5a2801b47c354f9359ac45a93e327, type: 3}
       propertyPath: m_Name
       value: Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898078956933396274, guid: 15b5a2801b47c354f9359ac45a93e327, type: 3}
+      propertyPath: peachQuality.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898078956933396274, guid: 15b5a2801b47c354f9359ac45a93e327, type: 3}
+      propertyPath: leafHydricStatus.Array.size
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
